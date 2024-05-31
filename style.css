@@ -152,15 +152,15 @@ p a button:hover {
   justify-content: center;
   align-self: center;
   background-color: #5a4072;
-  width: 600px;
-  height: 400px;
+  width: 900px;
+  height: 560px;
   border: 10px solid #5a4072;
   border-radius: 15px;
 }
 
 #game-iframe {
-  width: 600px;
-  height: 338px;
+  width: 900px;
+  height: 506px;
   border: none;
   border-radius: 15px;
 }
@@ -198,7 +198,7 @@ p a button:hover {
   transform: scale(0.9);
   position: relative;
   transition: background-color 0.5s, transform 0.5s;
-  bottom: 22.5%;
+  bottom: 17%;
 }
 .gamebox-button:hover {
   background-color: #a043d9;
