@@ -1,7 +1,12 @@
 [
     {
-        "id": "template",
-        "imgSrc": "example-icon.png",
-        "title" : "Template"
+        "id": "1v1lol",
+        "imgSrc": "logo.png",
+        "title" : "1v1.lol"
+    },
+    {
+        "id": "ctr",
+        "imgSrc": "logo.png",
+        "title" : "Cut the Rope"
     }
 ]
