@@ -5,6 +5,11 @@
         "title" : "1v1.lol"
     },
     {
+        "id": "2048",
+        "imgSrc": "thumb.png",
+        "title" : "2048"
+    },
+    {
         "id": "ctr",
         "imgSrc": "logo.png",
         "title" : "Cut the Rope"
