@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2048 - ghc198's Website</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link href="/style.css" rel="stylesheet" type="text/css">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script async defer src="https://cdn.jsdelivr.net/gh/buttons/github-buttons@main/dist/buttons.js"></script>
+    </head>
+    <body>
+        <div id="particles-js">
+            <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas>
+        </div>
+        <div class="topnav">
+            <a href="/about.html">
+                <span class="material-symbols-outlined inline-icon">
+                    info
+                </span>
+                About
+            </a>
+            <a href="/games.html">
+                <span class="material-symbols-outlined inline-icon">
+                sports_esports
+                </span>
+                Games
+            </a>
+            <a class="active" href="/index.html">
+                <span class="material-symbols-outlined inline-icon">
+                    home
+                </span>
+                Home
+            </a>
+            <h3 class="title">ghc198's website</h3>
+        </div>
+
+        <br>
+        <br>
+        <div class="game-box">
+            <iframe id="game-iframe" src="/game-files/2048/index.html" allow="fullscreen"></iframe>
+            <h1 id="game-title">
+                2048
+            </h1>
+            <button class="gamebox-button" onclick="openFullscreen()">
+                <span class="material-symbols-outlined inline-icon" style="font-size: 34px;">
+                    fullscreen
+                </span>
+            </button>
+            <button class="gamebox-button" onclick="openInNewTab()">
+                <span class="material-symbols-outlined inline-icon" style="font-size: 34px;">
+                    open_in_new
+                </span>
+            </button>
+            
+        </div>
+        <h3> I <b>highly</b> reccomend that you play this game in fullscreen or a new tab</h3>
+        <script>
+            var iframe = document.getElementById("game-iframe");
+
+            function openFullscreen() {
+                if (iframe.requestFullscreen) {
+                    iframe.requestFullscreen();
+                } else if (iframe.webkitRequestFullscreen) { /* Safari */
+                    iframe.webkitRequestFullscreen();
+                } else if (iframe.msRequestFullscreen) { /* IE11 */
+                    iframe.msRequestFullscreen();
+                }
+            }
+            function openInNewTab() {
+                window.open(iframe.src,'_blank');
+            }
+            if (iframe.exitFullscreen) {
+                iframe.exitFullscreen();
+            } else if (iframe.webkitExitFullscreen) { /* Safari */
+                iframe.webkitExitFullscreen();
+            } else if (iframe.msExitFullscreen) { /* IE11 */
+                iframe.msExitFullscreen();
+            }
+        </script>
+        <footer>
+            ghc198 <script>document.write(new Date().getFullYear())</script>
+            <br>
+            <a class="github-button" href="https://github.com/ghc198/ghc198.github.io" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Follow @ghc198 on GitHub">View this website's Github repo</a>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="/js/particles.js"></script>
+    </body>
+</html>
