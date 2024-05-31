@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+  margin: 0;
+  vertical-align: middle;
+  font-family:'Ubuntu', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#000000, #121212);
+  background: rgb(42, 32, 75);
+  background-size: cover;
+  z-index: -1;
+}
+
+h3, h2, h1, p{
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 17px;
+  vertical-align: text-top;
+  float: left;
+  margin-left: 5%;
+  color: white;
+}
+
+.topnav {
+  background-color: #333333;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 150000000;
+}
+
+.topnav a{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.inline-icon {
+  vertical-align: bottom;
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  margin-top: auto;
+}
+
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+p a {
+  color:white;
+  border:none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: font-size, 0.5s;
+}
+p a:hover {
+  font-size: 17.5px;
+}
+
+p a button {
+  cursor: pointer; 
+  background-color: #22c55e; 
+  border: none; color: white; padding: 15px 32px; 
+  text-align: center; text-decoration: none; 
+  display: inline-block; font-size: 16px; 
+  border-radius: 20px; margin-top: 20px; 
+  font-family:'Ubuntu', sans-serif;
+  transform: scale(1);
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+p a button:hover {
+  background-color: #43d97a;
+  transform: scale(1.05);
+}
+
+.game-link {
+  height: 400px;
+  width: 300px;
+  text-decoration: none;
+}
+.game-tile {
+  height: 400px;
+  width: 300px;
+  border-radius: 30px;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+.game-tile:hover {
+  transform: scale(1.05);
+}
+.game-icon {
+  border-radius: 30px;
+  width: 300px;
+  height: 300px;
+}
+.game-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+}
+.game-tile:hover .game-title {
+  opacity: 1;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  order: 0;
+  flex-grow: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  padding: 10px;
+}
+
+.game-box {
+  justify-content: center;
+  align-self: center;
+  background-color: #5a4072;
+  width: 600px;
+  height: 400px;
+  border: 10px solid #5a4072;
+  border-radius: 15px;
+}
+
+#game-iframe {
+  width: 600px;
+  height: 338px;
+  border: none;
+  border-radius: 15px;
+}
+
+#game-iframe:fullscreen 
+{
+   border-radius: 0px;
+}
+#game-iframe:-webkit-full-screen
+{
+  border-radius: 0px;
+}
+#game-iframe:-ms-fullscreen
+{
+  border-radius: 0px;
+}
+
+#game-title {
+  text-align: left; 
+  margin-left: 1%; 
+  padding-bottom: 10px;
+  position: relative;
+  bottom: 2%;
+}
+
+.gamebox-button {
+  float: right;
+  cursor: pointer; 
+  background-color: #8f22c5; 
+  border: 1px solid #ba91d3;
+  color: white; 
+  padding: 15px 15px; 
+  text-align: center; text-decoration: none; 
+  border-radius: 20px;
+  transform: scale(0.9);
+  position: relative;
+  transition: background-color 0.5s, transform 0.5s;
+  bottom: 22.5%;
+}
+.gamebox-button:hover {
+  background-color: #a043d9;
+  transform: scale(1);
+}
