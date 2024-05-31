@@ -10,6 +10,11 @@
         "title" : "2048"
     },
     {
+        "id": "among-us",
+        "imgSrc": "red.png",
+        "title" : "Among Us"
+    },
+    {
         "id": "ctr",
         "imgSrc": "logo.png",
         "title" : "Cut the Rope"
