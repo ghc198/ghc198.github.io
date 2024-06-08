@@ -20,8 +20,8 @@
         "title" : "Cut the Rope"
     },
     {
-        "id": "bloonstd4",
-        "imgSrc": "game-files/othericons/bloonstd4.webp",
-        "title": "Bloons TD 4"
+        "id": "bloonstd1",
+        "imgSrc": "game-files/othericons/bloonstd1.webp",
+        "title": "Bloons TD"
     }
 ]
