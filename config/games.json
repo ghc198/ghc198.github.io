@@ -15,13 +15,13 @@
         "title" : "Among Us"
     },
     {
+        "id": "bloonstd1",
+        "imgSrc": "game-files/othericons/bloonstd1.jpg",
+        "title": "Bloons TD"
+    },
+    {
         "id": "ctr",
         "imgSrc": "game-files/ctr/logo.png",
         "title" : "Cut the Rope"
-    },
-    {
-        "id": "bloonstd1",
-        "imgSrc": "game-files/othericons/bloonstd1.webp",
-        "title": "Bloons TD"
     }
 ]
