@@ -1,22 +1,27 @@
 [
     {
         "id": "1v1lol",
-        "imgSrc": "splash.png",
+        "imgSrc": "game-files/1v1lol/splash.png",
         "title" : "1v1.lol"
     },
     {
         "id": "2048",
-        "imgSrc": "thumb.png",
+        "imgSrc": "game-files/2048/thumb.png",
         "title" : "2048"
     },
     {
         "id": "among-us",
-        "imgSrc": "red.png",
+        "imgSrc": "game-files/among-us/red.png",
         "title" : "Among Us"
     },
     {
         "id": "ctr",
-        "imgSrc": "logo.png",
+        "imgSrc": "game-files/ctr/logo.png",
         "title" : "Cut the Rope"
+    },
+    {
+        "id": "bloonstd4",
+        "imgSrc": "game-files/othericons/bloonstd4.webp",
+        "title": "Bloons TD 4"
     }
 ]
