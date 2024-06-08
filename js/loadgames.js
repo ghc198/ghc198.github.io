@@ -10,7 +10,7 @@ fetch("config/games.json")
                   gameb.className = "game-link container";
                   gameb.innerHTML = `
                   <div class="game-tile">
-                    <img class="game-icon" src="/game-files/${game.id}/${game.imgSrc}" alt="icon" />
+                    <img class="game-icon" src="${game.imgSrc}" alt="icon" />
                     <p class="game-title">${game.title}</p>
                     </div>`;
                     container.appendChild(gameb);
@@ -34,7 +34,7 @@ fetch("config/games.json")
                 gameb.className = "game-link container";
                 gameb.innerHTML = `
                 <div class="game-tile">
-                <img class="game-icon" src="/wp-content/game-files/${game.id}/${game.imgSrc}" alt="icon" />
+                <img class="game-icon" src="${game.imgSrc}" alt="icon" />
                 <p class="game-title">${game.title}</p>
                 </div>`;
             container.appendChild(gameb);
